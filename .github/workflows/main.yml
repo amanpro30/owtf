@@ -3,8 +3,8 @@ name: OWTF CI
 on:
   push:
     branches: [master, develop]
-  pull_request:
-    branches: [Fixed_build_errors_in_Github_Actions]
+  pull_request_target:
+    branches: [master, develop]
 
   workflow_dispatch:
 
